@@ -1,0 +1,116 @@
+/*
+Made by Heather Huynh
+Ask before using!
+*/
+
+ html,body { 
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+	overflow: hidden;
+	text-align: center;
+}
+
+#background {
+	height: 100%;
+	width: 100%;
+	position: absolute; 
+	top: 0; 
+	left: 0;
+	z-index: -9000;
+}
+
+.selected {
+	text-decoration: underline;
+	}
+
+#nav span {
+	padding-right:2em;
+	cursor:pointer;
+}
+	
+#background img {
+	height:100%;
+	width: 100%;
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	opacity:0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+}
+
+#background img.opaque {
+	height:100%;
+	width: 100%;
+	opacity:1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=1);
+ }
+
+#main {
+	 background: rgba(255, 255, 255, 0.5);
+}
+
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-weight: bold;
+	font-size: 450%;
+	margin: 20% 0 0 0;
+	color: #393636;
+	vertical-align: middle;
+}
+
+#nav {
+	text-align: center;
+	font-weight: bold;
+	color: #393636;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 235%;
+	margin: 0 0 6px 0;
+}
+
+/* unvisited link */
+a:link {
+	color: #393636;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #393636;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #393636;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: #393636;
+	text-decoration: none;
+}
+
+.index {
+	vertical-align: middle;
+	height: 100%;
+}
+
+.content {
+	margin: 0 10% 0 10%;
+	color: #393636;
+}
+
+.emphasize {
+	font-size: 110%;
+	font-weight: bold;
+}
