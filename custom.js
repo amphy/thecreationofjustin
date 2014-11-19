@@ -3,7 +3,7 @@ $(document).ready(function() {
 		$("h1").animate({
 		//opacity: "50%",
 		fontSize: "200%",
-		margin: "45% 0 0 0"
+		margin: "35% 0 0 0"
 		}, 1500);
 		$("#nav").animate({
 		//opacity: "50%",
